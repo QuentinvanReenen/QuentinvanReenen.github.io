@@ -13,3 +13,8 @@
 .first_item {
     padding-top: 220px;
 }
+
+h1 {
+    background-color: gray
+    font-size: 40px;
+}

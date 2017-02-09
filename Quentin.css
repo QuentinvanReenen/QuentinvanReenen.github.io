@@ -18,3 +18,9 @@ h1 {
     background-color: gray
     font-size: 40px;
 }
+
+* {
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+}

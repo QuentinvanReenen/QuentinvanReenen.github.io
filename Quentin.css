@@ -1,11 +1,11 @@
 #wrapper { 
-    width:960px;
+    width:1080px;
     margin:0 auto;
     border-radius: 5px;
 }
 
 .wrapper { 
-    width:960px;
+    width:1080px;
     margin:0 auto;
     border-radius: 5px;
 }
@@ -17,21 +17,20 @@
 #nav {
     background-color: transparent;
     margin: 0 auto;
-    text-transform: uppercase;
     font-size: 23px;
     font-weight: 600;
     text-align: left;
 }
 
 #nav_wrapper {
-    width: 960px;
+    width: 1080px;
     text-align: left;
     color: white; 
 }
 a {
     color: white;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     
 }
 h1 {
@@ -51,15 +50,14 @@ h1 {
 
 #nav {
     background-color: transparent;
-    width: 960px;
+    width: 1080px;
     margin: 0 auto;
-    text-transform: uppercase;
     font-size: 23px;
     font-weight: 600;
     
 }
 #nav_wrapper {
-    width: 960px;
+    width: 1080px;
     margin-right: 0px;
     margin-left: 0px;
     text-align: left;
@@ -70,17 +68,19 @@ h1 {
     margin: 0;
     position: relative;
     min-width: 200px;
+    
 }
 #nav ul li {
     display: inline-block;
+    width: auto;
 }
 #nav ul li:hover {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 #nav ul li a, visited {
     color: #46494C;
     display: block;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
 }
 #nav ul li a:hover {
@@ -89,7 +89,7 @@ h1 {
 }
 #nav ul ul li a {
     color: white;
-    padding-right: 500px;
+    
     
 }
 #nav ul li:hover ul {
@@ -98,10 +98,10 @@ h1 {
 #nav ul ul {
     display: none;
     position: absolute;
-    background-color: #333;
-    border: 0px solid #222;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0px solid rgba(0, 0, 0);
     border-top: 0;
-    margin-left: -5px;
+    margin-left: 0px;
 }
 #nav ul ul li {
     display: block;

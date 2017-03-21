@@ -12,6 +12,9 @@
 
 .first_item {
     padding-top: 0px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0.5;
 }
 
 #nav {
@@ -20,6 +23,8 @@
     font-size: 23px;
     font-weight: 600;
     text-align: left;
+    
+    
 }
 
 #nav_wrapper {
@@ -31,17 +36,28 @@ a {
     color: white;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
     
 }
 h1 {
-    background: rgba(0, 0, 0, 1);
+    
     font-size: 72px;
-    text-align: center;
-    opacity: 0.5;
+    text-align: center;   
     color: white;
 }
 
-
+#Over_mij {
+    
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 50%;
+    color: white;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 2px;
+    
+}
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
@@ -55,12 +71,14 @@ h1 {
     font-size: 23px;
     font-weight: 600;
     
+    
 }
 #nav_wrapper {
     width: 1080px;
     margin-right: 0px;
     margin-left: 0px;
     text-align: left;
+    
 }
 #nav ul {
     list-style-type: none;
@@ -69,22 +87,30 @@ h1 {
     position: relative;
     min-width: 200px;
     
+    
+    
 }
 #nav ul li {
     display: inline-block;
     width: auto;
+    background-color: rgba(256, 256, 256, 0.6);
+    border-radius: 10px;
 }
+
 #nav ul li:hover {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 #nav ul li a, visited {
     color: #46494C;
     display: block;
     padding: 10px;
     text-decoration: none;
+    
 }
 #nav ul li a:hover {
     color: white;
+    border-radius: 10px;
     
 }
 #nav ul ul li a {
@@ -94,11 +120,11 @@ h1 {
 }
 #nav ul li:hover ul {
     display: block;
+    border-radius: 10px;
 }
 #nav ul ul {
     display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;    
     border: 0px solid rgba(0, 0, 0);
     border-top: 0;
     margin-left: 0px;
@@ -108,4 +134,36 @@ h1 {
 }
 #nav ul ul li a:hover {
     color: #333;
+    border-radius: 10px;
+    
+}
+
+.videoBgWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.videoBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .videoBg{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .videoBg {
+    width: auto;
+    height: 100%;
+  }
 }

@@ -67,7 +67,7 @@ img {
     width: 50%;
     height: auto;
     float: right;
-    
+    opacity: 0.95;
 }
 
 * {

@@ -56,8 +56,20 @@ h1 {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5); 
     padding: 2px;
+    float: left;
     
 }
+
+
+
+img {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    float: right;
+    
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;

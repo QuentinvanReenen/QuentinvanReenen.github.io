@@ -51,7 +51,7 @@ h1 {
     
     text-align: center;
     box-sizing: border-box;
-    width: 45%;
+    width: 65%;
     color: white;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5); 
@@ -66,10 +66,10 @@ h1 {
 
 img {
     border-radius: 10px;
-    width: 50%;
+    width: 30%;
     height: auto;
     float: right;
-    opacity: 0.95;
+    opacity: 0.97;
 }
 
 * {

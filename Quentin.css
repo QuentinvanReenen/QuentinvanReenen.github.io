@@ -51,7 +51,7 @@ h1 {
     
     text-align: center;
     box-sizing: border-box;
-    margin-right: 50%;
+    width: 45%;
     color: white;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5); 
@@ -60,7 +60,9 @@ h1 {
     
 }
 
-
+.container {
+    float: left;
+}
 
 img {
     border-radius: 10px;

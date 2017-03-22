@@ -1,5 +1,5 @@
 #wrapper { 
-    width:1000px;
+    width:960px;
     margin:0 auto;
     border-radius: 5px;
 }
@@ -9,9 +9,6 @@
     margin:0 auto;
     border-radius: 5px;
 }
-
-
-
 
 #nav {
     background-color: transparent;
@@ -28,16 +25,15 @@
     text-align: left;
     color: white; 
     margin-top: -20px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 a {
     color: white;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    
-    
 }
+
 h1 {
     
     font-size: 72px;

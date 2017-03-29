@@ -215,19 +215,19 @@ p {
     z-index: 1:        
 }
 
-img{
+img {
     border-radius: 10px;
     max-width: 100%;
     max-height: 100%;
 }
 
-.box{ 
+.box { 
     background-color: rgba(50, 50, 50, 0.8);
     border-radius: 10px;
     margin-bottom: 350px;
 }
 
-.boxtitel{
+.boxtitel {
     text-align: center;
     margin: 0px;
     color: white;
@@ -236,7 +236,7 @@ img{
     margin-top: 10px;    
 }
 
-.boxrest{
+.boxrest {
     background-color: rgba(0, 0, 0, 0.8);
     float:left;
     padding: 0px;
@@ -246,7 +246,7 @@ img{
     margin-bottom: 
 }
 
-.boxfoto{
+.boxfoto {
     float:left;
     width:auto;
     height:200px;
@@ -255,7 +255,12 @@ img{
     border-radius: 10px;
 }
 
-.boxtekst{
+.boxtekst {
     float: left;
     margin: 0px;
+}
+
+.footerclass {
+    background-color: rgba(0,0,0,0.5)
+    
 }

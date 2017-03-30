@@ -198,7 +198,7 @@ p {
 #Over_mij {    
     text-align: center;
     box-sizing: border-box;
-    width: 45%;
+    width:60%;
     color: white;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5); 
@@ -208,11 +208,21 @@ p {
 
 /* Foto Quentin naast tekstbalk */
 #Foto {    
-    width: 50%;
+    width: 40%;
     height: auto;
     float: right;
     opacity: 0.97;
-    z-index: 1:        
+    z-index: 1;
+    
+}
+
+#Foto2 {    
+    width: 40%;
+    height: auto;
+    float: right;
+    opacity: 0.97;
+    z-index: 1;
+    padding-top: 61px;
 }
 
 img {

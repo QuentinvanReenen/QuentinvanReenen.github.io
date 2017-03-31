@@ -268,6 +268,8 @@ img {
 .boxtekst {
     float: left;
     margin: 0px;
+    text-align: center;
+    
 }
 
 .footerclass {
@@ -290,4 +292,16 @@ h5 {
     margin-bottom: 5px;
     border-radius: 5px;
     padding-left: 10px;
+}
+
+#TinkerLogo {
+    text-align: center;  
+    background-color: rgba(100, 100, 100, 0.8); 
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+#TinkerTekst {
+    margin-top: -50px;
+    margin-bottom: 100px;
 }
